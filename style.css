@@ -93,6 +93,7 @@ img{
     margin-top: 5rem;
     background-image: url('Images/banner.png');
     background-size: cover;
+    background-position:center;
     height: 55vh;
     position: relative;
     color: white;
