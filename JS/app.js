@@ -21,3 +21,13 @@ function topFunction(){
 
 // WOW JS to animate
 new WOW().init();
+
+
+
+
+// navbar animation
+window.addEventListener('scroll', function(){
+    var navbar = document.querySelector('.code-nav');
+    navbar.classList.toggle('sticky', window.scrollY > 0);
+   
+  });
