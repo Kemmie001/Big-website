@@ -4,12 +4,14 @@
     --secondary: #F7931E;
     --tertiary: #EBEBEB;
 }
+
 @font-face{
     font-family: quicksand;
-    src: url("static/Quicksand-Medium.ttf");
+    src: url(static/Quicksand-Medium.ttf);
 }
 body{
     scroll-behavior: smooth;
+    font-family: quicksand;
 }
 .container{
     font-family: quicksand;
@@ -28,6 +30,9 @@ img{
 .icon-black{
     color: black;
 }
+.code-nav .line a{
+    color:#F7931E !important;
+}
 .fa-chevron-left, .fa-chevron-right{
     font-size: 2rem;
 }
@@ -43,6 +48,9 @@ img{
     font-size: 2rem;
     color: var(--secondary);
 }
+.code-nav{
+    background:transparent !important;
+}
 .navbar-toggler{
     border: none;
 }
@@ -55,6 +63,10 @@ img{
 }
 .nav-link{
     color: black;
+}
+.code-nav .nav-link{
+    color: #F7931E !important;
+
 }
 .text-orange{
     color: #F7931E;
@@ -127,6 +139,42 @@ img{
     position: relative;
     margin: auto;
     text-align: center;
+}
+
+.bg-img-for-weekend-code{
+    background-image:url("images/banner.png");
+    width:100%;
+    height:600px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.weekend-code-container{
+    position:relative !important;
+}
+.image-overlay{
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+    background:rgba(0, 0, 0, 0.5);
+    z-index:1;
+
+}
+.img-overlay-text{
+    position:relative;
+    z-index: 2;
+    height:100%;
+    width: 100%;
+    max-width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+    color:white;
+    text-align:center;
+  
+
 }
 .carousel{
     top: 30%;
