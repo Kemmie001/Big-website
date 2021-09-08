@@ -32,6 +32,7 @@ window.addEventListener('scroll', function(){
 
 
 // active link
-  $(document).on('click', '.navbar-nav .navbar-item', function(){
-    $(this).addClass('active').siblings().removeClass('active');
-  })
+  // $(document).on('click', '.navbar-nav .navbar-item', function(){
+  //   $(this).addClass('active').siblings().removeClass('active');
+  // });
+

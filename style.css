@@ -11,6 +11,7 @@
 body{
     scroll-behavior: smooth;
     font-family: quicksand;
+    overflow-x: hidden;
 }
 .container{
     font-family: quicksand;
@@ -56,6 +57,7 @@ img{
 }
 .nav-link{
     color: black;
+    font-size:1.2rem;
 }
 .text-orange{
     color: #F7931E;
@@ -94,8 +96,10 @@ img{
 }
 .code-nav .nav-link{
     color: #F7931E !important;
+    font-size:1.2rem;
 
 }
+
 .text-font{
     color:#F7931E !important;
     padding:1rem;
@@ -177,7 +181,21 @@ img{
   
 
 }
-
+.img_overlay_heading{
+    font-size:3rem;
+    font-weight:800;
+}
+.img_overlay_par{
+    font-size:1.5rem;
+}
+.btn-primary{
+    background-color: #F7931E !important;
+    border:1px solid #F7931E;
+}
+.btn-primary:hover{
+    background-color: #F7931E !important;
+    border:1px solid #F7931E;
+}
 .sticky{
     background-color:#fff !important;
     transition:ease-in 500ms !important;
@@ -586,6 +604,14 @@ label{
     padding-right: 0.5rem;
     font-size: 1.5rem;
 }
+}
+
+@media screen and (max-width:991px){
+    .code-nav .navbar-nav{
+        width:100%;
+        background:#fff;
+        /* padding-left:1rem; */
+    }
 }
 @media screen and (min-width:1024px){
     .nav-item{
