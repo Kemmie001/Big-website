@@ -25,7 +25,10 @@ img{
     font-weight: 500;
 }
 .bg{
-    background-color: rgb(255, 255, 9);
+    background-color: rgb(255, 255, 255);
+}
+.bg-trasparent{
+    background-color:transparent !important;
 }
 .icon-black{
     color: black;
@@ -99,7 +102,6 @@ img{
     font-size:1.2rem;
 
 }
-
 .text-font{
     color:#F7931E !important;
     padding:1rem;
@@ -214,6 +216,31 @@ img{
     line-height: px;
     color: #ffffff;
 }
+.child-code-section{
+    text-align:center;
+    /* padding:3rem 3rem; */
+}
+.child-code-section p, .third-section p, .second-section p{
+    font-size: 1.2rem !important;
+}
+.second-section{
+    /* margin-left:15rem;
+    margin-left:15rem; */
+    /* padding:3rem 0rem; */
+}
+.second-section ul li, .third-section ul li{
+    font-size:1.2rem;
+}
+.child-code-section p, .third-section p, .second-section p{
+    font-size: 1.2rem !important;
+}
+.third-section{
+
+}
+.third-section h1{
+    text-align:center;
+}
+
 .rect{
     background-color: var(--secondary);
     border: none;
